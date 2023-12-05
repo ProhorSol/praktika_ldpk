@@ -1,0 +1,26 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="styles/styles.css")
+        title О нас
+    body 
+        include modules/header.pug
+        section.ordering 
+            .wrapper 
+                h1 Оформление заказа
+                form(action="")
+                    input(type="text", name="", placeholder="Имя")
+                    input(type="text", name="", placeholder="Адрес") 
+                    input(type="phone", name="", placeholder="Номер телефона") 
+                    .ordering__pays 
+                        label Способ оплаты
+                        .ordering__pays_way
+                            input(type="radio", value="Оформить заказ", name="") 
+                            label(for="") Картой (при получении)
+                        .ordering__pays_way
+                            input(type="radio", value="Оформить заказ", name="") 
+                            label(for="") Наличкой (при получении)
+                    input(type="submit", value="Оформить заказ", placeholder="")
+        include modules/footer.pug        
