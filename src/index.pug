@@ -3,6 +3,7 @@ html(lang="ru")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="styles/styles.css")
         title Главная страница
     body 
         include modules/header.pug
@@ -10,51 +11,47 @@ html(lang="ru")
             .wrapper
                 .banner1
                    a(href="#")
-                       img(src="", alt="")
+                       img(src="img/banner1.png", alt="")
                 .banner2
                     a(href="#")
-                       img(src="", alt="")
+                       img(src="img/banner2.png", alt="")
                 .banner3
                     a(href="#")
-                       img(src="", alt="")
+                       img(src="img/banner3.png", alt="")
         section.categories-wrapper 
             .wrapper
                 h1 Категории товаров
                     .categories__blocks
                         .categories__block
-                            img(src="", alt="")
-                            p Краски
+                            img(src="img/catg1.png", alt="")
                         .categories__block
-                            img(src="", alt="")
-                            p Ручки
+                            img(src="img/catg2.png", alt="")
                         .categories__block
-                            img(src="", alt="")
-                            p Холсты
+                            img(src="img/catg3.png", alt="")
                         .categories__block
-                            img(src="", alt="")
-                            p Ежедневники
+                            img(src="img/catg4.png", alt="")
         section.hits-wrapper
             .wrapper
                 h1 Хиты продаж Calligrata
                     .hits__blocks
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits1.png", alt="")
                             p Цена: 750 р 
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits2.png", alt="")
                             p Цена: 750 р 
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits3.png", alt="")
                             p Цена: 750 р 
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits4.png", alt="")
                             p Цена: 750 р 
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits5.png", alt="")
                             p Цена: 750 р 
                             button Купить
         section.hits-wrapper
@@ -62,23 +59,23 @@ html(lang="ru")
                 h1 Хиты продаж ArtFox
                     .hits__blocks
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits6.png", alt="")
                             p Цена: 350 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits7.png", alt="")
                             p Цена: 350 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits8.png", alt="")
                             p Цена: 350 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits9.png", alt="")
                             p Цена: 350 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits10.png", alt="")
                             p Цена: 350 р
                             button Купить
         section.hits-wrapper
@@ -86,23 +83,23 @@ html(lang="ru")
                 h1 Хиты продаж Pengrata
                     .hits__blocks
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits11.png", alt="")
                             p Цена: 950 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits12.png", alt="")
                             p Цена: 950 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits13.png", alt="")
                             p Цена: 950 р
                             button Купить 
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits14.png", alt="")
                             p Цена: 950 р
                             button Купить
                         .hits__block
-                            img(src="", alt="")
+                            img(src="img/hits14.png", alt="")
                             p Цена: 950 р
                             button Купить
         section.questions-wrapper 
@@ -111,7 +108,7 @@ html(lang="ru")
                 h3 Как происходит онлайн-оплата картой?
                 ul
                     li Оплата производится через процессинговый центр ПАО «Сбербанк» или Best2Pay с использованием банковских карт следующих платёжных систем: МИР, VISA, mastercard
-                    img(src="", alt="pays")
+                    img(src="img/pays.png", alt="pays")
                 h3 Как получить заказ по пин-коду?
                 ol
                     li Убедитесь, что на всех коробках и пакетах указаны ваши ФИО либо наименование организации.
@@ -121,4 +118,4 @@ html(lang="ru")
                 ol
                     li Вы можете заказать товары на сайте или в мобильном приложении Сима-ленд (iOS, Android).
                     li Обратите внимание, если вы уже отправили заказ, в него нельзя внести изменения. Чтобы откорректировать товары или их количество, отмените заказ и оформите новый. Указывайте верные данные — имя, фамилию и адрес, — чтобы не возникало проблем с доставкой и получением заказа.
-        include modules/footer.pug          
+        include modules/footer.pug        
