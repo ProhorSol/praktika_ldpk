@@ -28,14 +28,10 @@
           <input type="phone" name="" placeholder="Номер телефона">
           <div class="ordering__pays"> 
             <label>Способ оплаты</label>
-            <div class="ordering__pays_way">
-              <input type="radio" value="Оформить заказ" name="">
-              <label for="">Картой (при получении)</label>
-            </div>
-            <div class="ordering__pays_way">
-              <input type="radio" value="Оформить заказ" name="">
-              <label for="">Наличкой (при получении)</label>
-            </div>
+            <select name="pays">
+              <option>Картой (при получении)</option>
+              <option>Наличкой (при получении)</option>
+            </select>
           </div>
           <input type="submit" value="Оформить заказ" placeholder="">
         </form>

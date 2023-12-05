@@ -266,13 +266,27 @@ section.questions-wrapper .wrapper img {
   color: white;
   border: none;
 }
-.ordering .wrapper .ordering__pays_way {
+.ordering .wrapper .ordering__pays {
   text-align: left;
   margin-top: 20px;
+  display: block;
+  text-align: center;
 }
-.ordering .wrapper .ordering__pays_way label {
+.ordering .wrapper .ordering__pays select, .ordering .wrapper .ordering__pays option {
+  width: 100%;
+  color: #040404;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 27px;
+  border: 3px solid #000;
+  padding: 20px 10px;
+  width: 846px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.ordering .wrapper .ordering__pays label {
   margin-left: 10px;
-}
-.ordering .wrapper .ordering__pays_way input[type=radio] {
   margin-bottom: 30px;
 }/*# sourceMappingURL=styles.css.map */

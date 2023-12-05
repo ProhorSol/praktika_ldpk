@@ -16,11 +16,8 @@ html(lang="ru")
                     input(type="phone", name="", placeholder="Номер телефона") 
                     .ordering__pays 
                         label Способ оплаты
-                        .ordering__pays_way
-                            input(type="radio", value="Оформить заказ", name="") 
-                            label(for="") Картой (при получении)
-                        .ordering__pays_way
-                            input(type="radio", value="Оформить заказ", name="") 
-                            label(for="") Наличкой (при получении)
+                        select(name="pays")
+                            option Картой (при получении)
+                            option Наличкой (при получении)
                     input(type="submit", value="Оформить заказ", placeholder="")
         include modules/footer.pug        
