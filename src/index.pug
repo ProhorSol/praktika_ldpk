@@ -1,0 +1,124 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Главная страница
+    body 
+        include modules/header.pug
+        section.banners-wrapper 
+            .wrapper
+                .banner1
+                   a(href="#")
+                       img(src="", alt="")
+                .banner2
+                    a(href="#")
+                       img(src="", alt="")
+                .banner3
+                    a(href="#")
+                       img(src="", alt="")
+        section.categories-wrapper 
+            .wrapper
+                h1 Категории товаров
+                    .categories__blocks
+                        .categories__block
+                            img(src="", alt="")
+                            p Краски
+                        .categories__block
+                            img(src="", alt="")
+                            p Ручки
+                        .categories__block
+                            img(src="", alt="")
+                            p Холсты
+                        .categories__block
+                            img(src="", alt="")
+                            p Ежедневники
+        section.hits-wrapper
+            .wrapper
+                h1 Хиты продаж Calligrata
+                    .hits__blocks
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 750 р 
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 750 р 
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 750 р 
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 750 р 
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 750 р 
+                            button Купить
+        section.hits-wrapper
+            .wrapper
+                h1 Хиты продаж ArtFox
+                    .hits__blocks
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 350 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 350 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 350 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 350 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 350 р
+                            button Купить
+        section.hits-wrapper
+            .wrapper
+                h1 Хиты продаж Pengrata
+                    .hits__blocks
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 950 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 950 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 950 р
+                            button Купить 
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 950 р
+                            button Купить
+                        .hits__block
+                            img(src="", alt="")
+                            p Цена: 950 р
+                            button Купить
+        section.questions-wrapper 
+            .wrapper 
+                h1 Часто задаваемые вопросы
+                h3 Как происходит онлайн-оплата картой?
+                ul
+                    li Оплата производится через процессинговый центр ПАО «Сбербанк» или Best2Pay с использованием банковских карт следующих платёжных систем: МИР, VISA, mastercard
+                    img(src="", alt="pays")
+                h3 Как получить заказ по пин-коду?
+                ol
+                    li Убедитесь, что на всех коробках и пакетах указаны ваши ФИО либо наименование организации.
+                    li Посчитайте количество коробок и проверьте их целостность.
+                    li Если выбрали наличный расчёт, оплатите заказ.
+                h3 Как оформить заказ?
+                ol
+                    li Вы можете заказать товары на сайте или в мобильном приложении Сима-ленд (iOS, Android).
+                    li Обратите внимание, если вы уже отправили заказ, в него нельзя внести изменения. Чтобы откорректировать товары или их количество, отмените заказ и оформите новый. Указывайте верные данные — имя, фамилию и адрес, — чтобы не возникало проблем с доставкой и получением заказа.
+        include modules/footer.pug          
